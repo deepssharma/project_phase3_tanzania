@@ -85,7 +85,7 @@ refully evaluate the predictions and understand the role of different features t
 ![Models ROC Comparison ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/ROC_curves_comp_models.png)
 
 * The most features from best model are shown below:
-* ![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top5.png)
+![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top5.png)
 
 ## Recommendations
 
