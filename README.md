@@ -86,3 +86,8 @@ refully evaluate the predictions and understand the role of different features t
 
 * The most features from best model are shown below:
 * ![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top5.png)
+
+## Recommendations
+
+* The Water ministry should reallocate funds to replacing pumps at salty locations with the correct types.
+* Allocate some budgets for R&D to find out the right extraction type for a given location.
