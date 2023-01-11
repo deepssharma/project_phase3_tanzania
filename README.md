@@ -74,8 +74,15 @@ refully evaluate the predictions and understand the role of different features t
 
 ## Major Issues
 
-* It was a challenging dataset given its length ~(60K entries) and number of categorical variables (which cause issue in one-hot encoding that generates too many columns). This was a major issue when I had to run GridSearchCV for hyperparameter tunings. I wasnt able to run even one model even after reducing the number of columns from 41 to 23. I killed the process after waiting for 1.5 days. This is when I found out about HalvingGridSearchCV. This reduces the running time by factors anywhere ranging from 2-5. Sklearn says its still in experimentation and examples show that the parameters found by two methods are pretty much same. Using this I was able to run GridSearch in a few hours for each model scenario. However this feature is only available in recent version of sklearn and so I had to update it
+* It was a challenging dataset given its length ~(60K entries) and number of categorical variables (which cause issue in one-hot encoding that generates too many columns). This was a major issue when I had to run GridSearchCV for hyperparameter tunings. I wasnt able to run even one model even after reducing the number of columns from 41 to 23. I killed the process after waiting for 1.5 days. This is when I found out about **HalvingGridSearchCV**. This reduces the running time by factors anywhere ranging from 2-5. Sklearn says its still in experimentation and examples show that the parameters found by two methods are pretty much same. Using this I was able to run GridSearch in a few hours for each model scenario. However this feature is only available in recent version of sklearn and so I had to update it
 
-* The second issue was that this is a ternary classification problem (not the usual Yes/No binary), so I had to use ovr (One vs Rest) option and to plot ROC curves for this multi-label problem required update sklearn as well.
+* The second issue was that this is a ternary classification problem (not the usual Yes/No binary), so I had to use **ovr (One vs Rest)** option and to plot ROC curves for this multi-label problem required update sklearn as well.
 
+## Results
 
+**XGB Classifier** is the best model found in this study with an roc_auc_score of about 91% for the training set and 89% for the test data. A summary of the comparison of the models is shown below:
+![Models Comparison ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/models_comparison.png)
+![Models ROC Comparison ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/ROC_curves_comp_models.png)
+
+* The most features from best model are shown below:
+* ![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top5.png)
