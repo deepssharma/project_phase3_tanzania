@@ -85,9 +85,15 @@ refully evaluate the predictions and understand the role of different features t
 ![Models ROC Comparison ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/ROC_curves_comp_models.png)
 
 * The most features from best model are shown below:
-![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top5.png)
+![ Most Important Features ](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/FeatureImportances_top10.png)
+
+
+## Predicted Probablities for Non-Functional Pumps
+![ Non-Functional Pumps](https://github.com/deepssharma/project_phase3_tanzania/blob/main/images/Nonfunctional_Probability_BarPlot.png)
 
 ## Recommendations
 
 * The Water ministry should reallocate funds to replacing pumps at salty locations with the correct types.
 * Allocate some budgets for R&D to find out the right extraction type for a given location.
+* Investigate  for the reasons why for some pumps payments are never paid or unknown.
+* Also look into the water pumps that are in dry areas and or whom the quantity of water is not known.
