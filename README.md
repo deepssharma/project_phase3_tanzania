@@ -97,3 +97,24 @@ refully evaluate the predictions and understand the role of different features t
 * Allocate some budgets for R&D to find out the right extraction type for a given location.
 * Investigate  for the reasons why for some pumps payments are never paid or unknown.
 * Also look into the water pumps that are in dry areas and or whom the quantity of water is not known.
+
+## Directory Structure
+```
+Data_train.csv
+Data_train_labels.csv
+EDA.ipynb
+Notebook.pdf
+README.md
+images
+   |-- FeatureImportances_top10.png
+   |-- FeatureImportances_top5.png
+   |-- Nonfunctional_Probability_BarPlot.pdf
+   |-- Nonfunctional_Probability_BarPlot.png
+   |-- ROC_curves_comp_models.png
+   |-- Relationship_extraction_pump.png
+   |-- Relationship_quality_pump.png
+   |-- Relationship_quantity_pump.png
+   |-- models_comparison.png
+models.ipynb
+presentation.pdf
+```
