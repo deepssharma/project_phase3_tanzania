@@ -106,3 +106,10 @@ refully evaluate the predictions and understand the role of different features t
     ├── .gitignore                          List of files and folders not to be uploaded into repo
     ├── models.ipynb                        Main Jupyter notebook, contains analysis                                  
     └── README.md                           The top-level README
+
+## Contact Info:
+-----
+* Email: deeps.sharma@gmail.com
+* GitHub: [@deepssharma](https://github.com/deepssharma)
+* [LinkedIn](https://www.linkedin.com/in/deepali-sharma-a83a126/) 
+
